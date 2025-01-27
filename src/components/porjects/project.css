@@ -1,0 +1,178 @@
+#porjects{
+    width: 100%;
+   
+    position: relative;
+
+}
+
+.project-box, img{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+   
+}
+.project-box .img{
+    display: inline-block;
+    
+    object-fit: cover;
+   
+    object-position: center;
+}
+
+.project-box .p-overlayer{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background: rgba(22, 32, 82, 0.5);
+    background: linear-gradient(180deg, rgba(22, 32, 82,0)65%, rgba(22, 32, 82,0.85)100%);
+    padding: 3px;
+    transition: 0.3s;
+}
+.project-box .p-overlayer strong{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    letter-spacing: 2px;
+    border-left: 4px solid #689af8;
+    line-height: 30px;
+    padding-left: 20px ;
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.project-box .p-overlayer a{
+    color: #111;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    /* padding-left: 20px ; */
+    margin: 2px;
+    font-weight: 700;
+    
+    background: var(--grayColor);
+    
+}
+.project-box:hover .p-overlayer{
+    background: #0d0d0d9f;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: 0%;
+    
+
+}
+
+.github-btn{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper{
+    position: static !important;
+    
+    
+}
+
+
+
+.swiper-button-next,
+.swiper-button-prev{
+    top: 8% !important;
+}
+.swiper-button-prev{
+    right: 35px !important;
+    left: auto !important;
+}
+  
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-size: 25px !important;
+    color: var(--whiteColor);
+}
+
+  
+  
+.swiper-pagination{
+    bottom: 80px !important;
+
+}
+
+
+
+  @media(max-width:560px){
+    .project-heading h3{
+        font-size: 1.7rem;
+
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev{
+        top: 5.5% !important;
+        transform: scale(0.7);
+    }
+    .project-box:hover .p-overlayer{
+        top: 0%;
+        
+    
+    }
+    .project-box .p-overlayer strong{
+        color: white;
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        border-left: 4px solid #689af8;
+        line-height: 30px;
+        padding-left: 20px ;
+        font-weight: 700;
+    
+    }
+    .project-box .p-overlayer a{
+        color: var(--whiteColor);
+        font-size: 0.4rem;
+        letter-spacing: 1px;
+        /* padding-left: 20px ; */
+        margin: 2px;
+        font-weight: 700;
+        
+        background: var(--grayColor);
+    }
+
+        
+}
+
+@media(max-width:980px){
+    .project-box .p-overlayer strong{
+     
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        
+        
+    
+    }
+    .project-box .p-overlayer a{
+       
+        font-size: 0.5rem;
+        letter-spacing: 1px;
+        /* padding-left: 20px ; */        
+    }
+
+    .project-box:hover .p-overlayer{
+        top: 0%;
+        
+    
+    }
+
+}
+
+
+

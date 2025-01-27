@@ -1,0 +1,41 @@
+#language{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    position: relative;
+
+}
+
+.language-box h3{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+.language-box ul{
+   display: flex;
+   flex-wrap: wrap;
+   background: rgba(0, 0, 0, 0.08 );
+   padding: 10px 15px;
+   margin-top: 10px;
+
+}
+.language-box ul li{
+    color: var(--grayColor);
+    margin-right: 15px;
+    margin-top: 10px;
+    /* background: #1919276a; */
+    
+    
+}
+
+
+
+/* responsive */
+@media(max-width:665px){
+    #language{
+
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+}
