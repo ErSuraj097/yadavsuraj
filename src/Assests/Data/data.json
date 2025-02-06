@@ -1,0 +1,62 @@
+{
+    "projects":[
+    {
+        "name":"Image Background Remover",
+        "link":"removebg097.netlify.app",
+         "github":"https://github.com/ErSuraj097/CodeClause_remove.bg"
+        },
+    {
+        "name":"Book Store",
+         "link":"https://book-store-omega-inky.vercel.app/",
+         "github":"https://github.com/ErSuraj097/BookStore"
+        },
+    {
+        "name":"Course Sell - STech",
+         "link":"https://s-tech-f1vd.vercel.app/" ,
+         "github":"https://github.com/ErSuraj097/STech"
+        },
+    {
+        "name":"Movies Recommendation System",
+         "link":"https://github.com/ErSuraj097/movie-recommend/blob/890e5d2ff73cc8d651ccf8ea23cd48dc9dc425c3/Screenshot%20(547).png",
+        "github":"https://github.com/ErSuraj097/movie-recommend"
+    }
+],
+
+
+"link":[
+    {"Linkedin":"https://www.linkedin.com/in/suraj097/"},
+    {"Github":"https://github.com/ErSuraj097"},
+    {"Insta":""}
+],
+
+"career": [
+    {
+        "title": "Frontend Developer",
+        "name": "Code cluse - Intern",
+       "year": "Apr,2023 - July, 2023"
+},
+    {
+        "title": "Web Developer",
+        "name": "Lets Grow More - Intern",
+        "year": "May,2024 - Aug, 2024"
+        }
+],
+
+"education":[
+    {
+        "title": "Bachelor of Technology",
+        "name": "Computer Science And Engineering",
+        "year": "2021-2024",
+        "percent": " 7.8 CGPA"
+
+},
+    {
+        "title": "Diploma",
+        "name": "Computer Science And Engineering",
+        "year": "2018-2021",
+        "percent": " 81 %"
+}
+
+]
+
+}

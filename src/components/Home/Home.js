@@ -1,7 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import './Home.css';
-
-import Avatar from "../suraj.jpeg"
+import Avatar from "../../Assests/images/suraj.jpeg"
 
 
 

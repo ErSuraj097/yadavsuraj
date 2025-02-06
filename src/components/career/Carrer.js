@@ -1,7 +1,26 @@
 import React from 'react'
 import './carrer.css'
+import data from '../../Assets/Data/data.json'
+export const data=async()=>{
+    
+        try {
+            const response = await fetch('../../Assets/Data/data.json'); // Fetch JSON file
+            if (!response.ok) throw new Error('Failed to load JSON');
+    
+            const data = await response.json(); // Convert response to JSON
+            console.log(data);
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    }
+
+    
+   
+    
+
 
 const Carrer = () => {
+    
     const carrers = [
         {
             title: "Frontend Developer",
@@ -30,6 +49,7 @@ const Carrer = () => {
     },
 
 ]
+console.log(data)
   return (
     <section id="carrer">
         <div className="carrer-education">
@@ -54,7 +74,7 @@ const Carrer = () => {
                 <div className="c-b-container">
                     {education.map((carrer,index) =>{
                         return(
-                            <div className="c-box">
+                            <div className="c-box" key={index}>
                                 <h4>{carrer.title}</h4>
                                 <strong>{carrer.name}</strong>
                                 <span>{carrer.year } |  
@@ -69,7 +89,7 @@ const Carrer = () => {
            
         </div>
         <div className="btn-c">
-                <a href="" download className='btn-link'>
+                <a href="https://drive.google.com/file/d/1d-V3-FURUrff8S1dxHfVmcieNhVBQR_t/view?usp=sharing" target='blank' download className='btn-link'>
                     
                     Get Cv<i class="fa-solid fa-download"></i></a>
             </div>

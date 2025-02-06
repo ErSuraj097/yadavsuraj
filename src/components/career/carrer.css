@@ -42,7 +42,6 @@
 
 .c-box strong{
     font-size: 1rem;
-
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -80,13 +79,13 @@
 
     .carrer{
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        
+        align-items: start;
     }
 
     .education{
         margin-top: 50px;
+        align-items: start;
     }
 
         

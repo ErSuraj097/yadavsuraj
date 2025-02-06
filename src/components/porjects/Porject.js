@@ -1,6 +1,6 @@
 import React from 'react'
 import './project.css'
-import Ecom from "../suraj.jpeg"
+
 import bookSell from "../../Assests/images/bookSell.png"
 import bookStore from "../../Assests/images/bookStore.png"
 import remove from "../../Assests/images/remove.png"
