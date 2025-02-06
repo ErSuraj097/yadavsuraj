@@ -1,18 +1,6 @@
 import React from 'react'
 import './carrer.css'
-import data from '../../Assets/Data/data.json'
-export const data=async()=>{
-    
-        try {
-            const response = await fetch('../../Assets/Data/data.json'); // Fetch JSON file
-            if (!response.ok) throw new Error('Failed to load JSON');
-    
-            const data = await response.json(); // Convert response to JSON
-            console.log(data);
-        } catch (error) {
-            console.error('Error:', error);
-        }
-    }
+
 
     
    
@@ -49,7 +37,7 @@ const Carrer = () => {
     },
 
 ]
-console.log(data)
+
   return (
     <section id="carrer">
         <div className="carrer-education">
