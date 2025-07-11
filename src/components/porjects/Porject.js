@@ -24,10 +24,19 @@ import { Pagination, Navigation } from 'swiper/modules';
 const Porject = () => {
 
     const data =[
+            {
+        src: Voice-cloning,
+        url: "#!",
+        name: "Multiligual Voice Cloning and Video Dubbing"
+    },  {
+        src: Chatbot,
+        url: "#!",
+        name: "AI Multilingual Chatbot"
+    },
         {
         src: remove,
         url: "#!",
-        name: "Image Background Remover"
+        name: "Image AI - Background Remover"
     },
         {
         src: bookSell,
