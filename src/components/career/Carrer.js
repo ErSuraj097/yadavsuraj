@@ -11,6 +11,12 @@ const Carrer = () => {
     
     const carrers = [
         {
+            title: "AI Engineer",
+            name: "Jethat Cyber Security ",
+            year: "July,2024 - Present"
+    },
+        
+        {
             title: "Frontend Developer",
             name: "Code cluse - Intern",
             year: "Apr,2023 - July, 2023"
