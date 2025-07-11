@@ -65,7 +65,7 @@ const WORDS = ["AI Engineer ","FullStack Developer","Programer ", "Designer"];
                   
                 <p>
 
-                // Software engineering is the process of creating efficient and reliable software solutions. 
+               
                 AI engineering involves building smart systems using data, algorithms, and machine learning.
                  </p>
                 
