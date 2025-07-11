@@ -14,18 +14,30 @@ const Footer = () => {
         >
           <i class="fa-brands fa-linkedin"></i>
         </a>
-        <a href="https://github.com/ErSuraj097" alt="Github" target="blank">
+        <a 
+            href="https://github.com/ErSuraj097" 
+            alt="Github" 
+            target="blank"
+          >
           <i class="fa-brands fa-github"></i>
         </a>
-        <a href="mailto:ersuraj097@gmail.com" className='btn-link contact-btn'>
+              
+        <a 
+              href="mailto:ersuraj097@gmail.com" 
+              alt = "Email"
+              target = "blank"
+              className='btn-link contact-btn'
+            >
             <i class="fa-solid fa-envelope-open-text "></i>
         </a>
+                
       </div>
 
-      <a href="" className="footer-logo">
+      <a href="#" className="footer-logo">
         {" "}
         {Logo}
       </a>
+  // <span> Copyright &copy; </span>
     </footer>
   );
 };
