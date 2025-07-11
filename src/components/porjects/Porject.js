@@ -15,7 +15,7 @@ import remove from '../../Assests/images/remove.png';
 import recomend from '../../Assests/images/recomend.png';
 import Analytics from '../../Assests/images/Analytics.png';
 import VoiceCloning from '../../Assests/images/voice-cloning.png';
-import chatbot from '../../Assests/images/chatbot.png';
+import Chatbot from '../../Assests/images/chatbot.png';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
