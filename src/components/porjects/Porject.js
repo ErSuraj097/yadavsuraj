@@ -8,7 +8,7 @@ import recomend from "../../Assests/images/recomend.png"
 import Analytics from "../../Assests/images/Analytics.png"
 
 import Voice-cloning from "../../Assests/images/voice-cloning.png"
-import Voice-cloning from "../../Assests/images/chatbot.png"
+import chatbot from "../../Assests/images/chatbot.png"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
