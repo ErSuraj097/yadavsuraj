@@ -6,8 +6,7 @@ import bookStore from "../../Assests/images/bookStore.png"
 import remove from "../../Assests/images/remove.png"
 import recomend from "../../Assests/images/recomend.png"
 import Analytics from "../../Assests/images/Analytics.png"
-
-import Voice-cloning from "../../Assests/images/voice-cloning.png"
+import VoiceCloning from "../../Assests/images/voice-cloning.png"
 import chatbot from "../../Assests/images/chatbot.png"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -27,7 +26,7 @@ const Porject = () => {
 
     const data =[
             {
-        src: Voice-cloning,
+        src: VoiceCloning,
         url: "#!",
         name: "Multiligual Voice Cloning and Video Dubbing"
     },  {
