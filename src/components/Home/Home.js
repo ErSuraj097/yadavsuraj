@@ -10,7 +10,7 @@ const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
 
-const WORDS = ["FullStack Developer","Data Engineer "," Programer ", "Designer"];
+const WORDS = ["AI Engineer ","FullStack Developer","Programer ", "Designer"];
   const [text, setText] = useState("")
   const [isTyping, setIsTyping] = useState(true)
   const [wordIndex, setWordIndex] = useState(0)
@@ -61,12 +61,12 @@ const WORDS = ["FullStack Developer","Data Engineer "," Programer ", "Designer"]
                 <h1>Suraj Yadav</h1>
 
                 <h2>I'm {text}</h2>
-                   
-                
+            
                   
                 <p>
 
-                Software engineering is the process of creating efficient and reliable software solutions               
+                // Software engineering is the process of creating efficient and reliable software solutions. 
+                AI engineering involves building smart systems using data, algorithms, and machine learning.
                  </p>
                 
                 <div className="social-media">
@@ -90,7 +90,7 @@ const WORDS = ["FullStack Developer","Data Engineer "," Programer ", "Designer"]
                 </div>
 
 
-                <a href="" className='hire-me'>Hire me</a>
+                <a href="https://drive.google.com/file/d/1jB6s06Q37AW_JT5Hh7xaI0WZ8BObmddp/view?usp=sharing" className='hire-me'>Hire me</a>
                 </div>
             </div>
 
