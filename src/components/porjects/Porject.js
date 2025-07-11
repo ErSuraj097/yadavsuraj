@@ -7,6 +7,8 @@ import remove from "../../Assests/images/remove.png"
 import recomend from "../../Assests/images/recomend.png"
 import Analytics from "../../Assests/images/Analytics.png"
 
+import Voice-cloning from "../../Assests/images/voice-cloning.png"
+import Voice-cloning from "../../Assests/images/chatbot.png"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
