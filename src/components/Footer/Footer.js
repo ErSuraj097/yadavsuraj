@@ -37,7 +37,6 @@ const Footer = () => {
         {" "}
         {Logo}
       </a>
-  // <span> Copyright &copy; </span>
     </footer>
   );
 };
