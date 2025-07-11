@@ -9,7 +9,7 @@ const About = () => {
 
             <div className="about-heading" data-aos="flip-left">
                 <strong>About me</strong>
-                // <h3>Designing with passion for problem sovling</h3>
+              
                 <h3>Engineering Intelligence with a Passion for Problem Solving</h3>
 
                 <a href="tel:9792440259" className='btn-link'><i class="fa-solid fa-phone fa-beat-fade"></i>+91 9792440259</a>
