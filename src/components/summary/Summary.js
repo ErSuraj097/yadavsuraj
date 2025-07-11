@@ -39,8 +39,8 @@ const Summary = () => {
 
   <div className="summary-details" data-aos="fade-left">
     <p>
-      I'm an AI engineer focused on building smart, efficient, and scalable systems that solve real-world problems. I specialize in Python-based machine learning and data science using tools like Pandas, NumPy, Scikit-learn, Matplotlib, Streamlit, and Tkinter. I have experience developing and deploying AI models for prediction, classification, and automation tasks.<br><br>
-      My foundation in full-stack development (React, Node.js, Express, MongoDB) complements my AI work, allowing seamless integration of intelligent features into user-facing applications. I'm also proficient in C++, Core Java, and familiar with development tools such as GitHub, VS Code, and Postman.<br><br>
+      I'm an AI engineer focused on building smart, efficient, and scalable systems that solve real-world problems. I specialize in Python-based machine learning and data science using tools like Pandas, NumPy, Scikit-learn, Matplotlib, Streamlit, and Tkinter. I have experience developing and deploying AI models for prediction, classification, and automation tasks.<br></br>
+      My foundation in full-stack development (React, Node.js, Express, MongoDB) complements my AI work, allowing seamless integration of intelligent features into user-facing applications. I'm also proficient in C++, Core Java, and familiar with development tools such as GitHub, VS Code, and Postman.<br></br>
       With strong problem-solving skills and deep knowledge of algorithms and data structures, I aim to create AI solutions that are not only innovative but also reliable, interpretable, and production-ready.
     </p>
   </div>
